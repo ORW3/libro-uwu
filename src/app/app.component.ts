@@ -3,6 +3,7 @@ import { Router, NavigationEnd } from '@angular/router';
 import { ScriptService } from './services/script.service';
 import { filter, Subscription } from 'rxjs';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
