@@ -9,6 +9,9 @@
     </div>
     <div class="page cover-front" id="ayuda" onclick="movePage(this,2)"></div>
     <div class="page overflow no-select">
+      <p *ngIf="libros.length <= 0" class="text-center">
+        No hay libros registrados
+      </p>
       <div *ngFor="let libro of libros; let i = index">
         <h1>{{ libro.nombre }}</h1>
         <p>{{ libro.autor }}</p>
