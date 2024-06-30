@@ -110,6 +110,7 @@ function createFlower(x, y) {
 
 /*Mondrian*/
 
+/*
 setInterval(function () {
   function randInt (min, max) {
     return Math.floor(Math.random() * (max - min) + min)
@@ -202,4 +203,6 @@ setInterval(function () {
   //ctx.stroke()
   
 }, 100);
-  
+  */
+
+
